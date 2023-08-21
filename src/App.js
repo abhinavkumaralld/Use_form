@@ -1,9 +1,11 @@
 import ReactDOM from "react-dom/client";
 import Form from "./components/Form";
+import AxiosFile from "./components/AxiosFile";
 function App() {
   return (
     <div>
-      <Form></Form>
+      {/* <Form></Form> */}
+      <AxiosFile />
     </div>
   );
 }
