@@ -7,9 +7,8 @@ const popularVid = axios.create({
 const AxiosFile = () => {
   useEffect(() => {
     popularVid.get("").then((res, err) => {
-      console.log(res.data);
+      console.log("done");
     });
-    console.log("dijsfjod");
   });
   return <div>AxiosFile</div>;
 };
